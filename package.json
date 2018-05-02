@@ -1,6 +1,6 @@
 {
   "name": "snapshot-diff-serializer",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "A serializer that lets you generate snapshot diffs between two values",
   "main": "index.js",
   "author": "Wellington Cordeiro",

@@ -1,0 +1,24 @@
+{
+  "name": "snapshot-diff-serializer",
+  "version": "1.0.0",
+  "description": "A serializer that lets you generate snapshot diffs between two values",
+  "main": "index.js",
+  "author": "Wellington Cordeiro",
+  "repository": "https://github.com/wldcordeiro/snapshot-diff-serializer",
+  "license": "MIT",
+  "scripts": {
+    "semantic-release": "semantic-release pre && yarn publish && semantic-release post"
+  },
+  "peerDependencies": {
+    "jest": "^22.x"
+  },
+  "dependencies": {
+    "jest-diff": "^22.4.3",
+    "strip-ansi": "^4.0.0"
+  },
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-gitmoji-changelog": "^1.1.0",
+    "semantic-release": "^15.2.0"
+  }
+}
